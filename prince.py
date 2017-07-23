@@ -32,7 +32,14 @@ quote_page = ['http://www.songlyrics.com/prince/18-over-lyrics',
               'http://www.songlyrics.com/prince/purple-rain-lyrics',
               'http://www.songlyrics.com/prince/the-most-beautiful-girl-in-the-world-lyrics',
               'http://www.songlyrics.com/prince/irresistible-bitch-lyrics',
-              'http://www.songlyrics.com/prince/i-could-never-take-the-place-of-your-man-lyrics']
+              'http://www.songlyrics.com/prince/i-could-never-take-the-place-of-your-man-lyrics',
+              'http://www.songlyrics.com/prince/hot-thing-lyrics',
+              'http://www.songlyrics.com/prince/she-spoke-2-me-lyrics',
+              'http://www.songlyrics.com/prince/7-lyrics',
+              'http://www.songlyrics.com/prince/the-sarifice-of-victor-lyrics',
+              'http://www.songlyrics.com/prince/free-lyrics',
+              'http://www.songlyrics.com/prince/international-lover-lyrics',
+              'http://www.songlyrics.com/prince/lady-cab-driver-lyrics']
 
 # for loop
 data = []
