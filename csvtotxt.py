@@ -1,9 +1,10 @@
 # import libraries
 
-import csv
+# this is not needed for simple file reading
+# import csv
 
-csv_file = raw_input('Enter the name of your input file: ')
-txt_file = raw_input('Enter the name of your output file: ')
+csv_file = input('Enter the name of your input file: ')
+txt_file = input('Enter the name of your output file: ')
 
 text_list = []
 

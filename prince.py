@@ -1,5 +1,5 @@
 # import libraries
-import urllib2
+import urllib3
 from urllib import FancyURLopener
 from bs4 import BeautifulSoup
 import csv
@@ -46,9 +46,9 @@ data = []
 for pg in quote_page:
     # query the website and return the html to the variable 'page'
     # user agent
-    req = urllib2.Request(pg, headers={'User-Agent': "Magic Browser"})
-    page = urllib2.urlopen(req)
-    # page = urllib2.urlopen(pg)
+    req = urllib3.Request(pg, headers={'User-Agent': "Magic Browser"})
+    page = urllib3.urlopen(req)
+    # page = urllib3.urlopen(pg)
 
 # parse the html using beautiful soap and store in variable `soup`
     soup = BeautifulSoup(page, 'html.parser')
